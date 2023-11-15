@@ -6,13 +6,13 @@ function initMap() {
     zoom: 15
   });
 
-  var school = new google.maps.Marker({
-    position: { lat: 41.8730, lng: -87.6279},
+  var home = new google.maps.Marker({
+    position: { lat: 41.70839, lng: -87.65131},
     map: map
   });
 
-  var home = new google.maps.Marker({
-    position: { lat: 41.868690, lng: -87.625380 },
+  var pratice = new google.maps.Marker({
+    position: { lat: 41.68480, lng: -87.72345 },
     map: map
   });
 
